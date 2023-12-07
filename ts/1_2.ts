@@ -40,9 +40,6 @@ async function main() {
 			line = line.slice(0, idx) + numbersDict[writtenNumber] + line.slice(idx)
 		}
 
-		console.log(line);
-		
-
 		let firstNum = null;
 		let lastNum = null;
 
